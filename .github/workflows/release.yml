@@ -23,7 +23,7 @@ jobs:
       - name: Build Universal Binary
         run: |
           xcodebuild \
-            -project "${{ env.APP_NAME }}.xcodeproj" \
+            -project "Video-Compressor.xcodeproj" \
             -target "Video Compressor" \
             -configuration Release \
             CONFIGURATION_BUILD_DIR="$PWD/build" \
