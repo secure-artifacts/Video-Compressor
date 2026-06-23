@@ -18,7 +18,7 @@ jobs:
       - name: Build (Debug)
         run: |
           xcodebuild \
-            -project "Video-Compressor.xcodeproj" \
-            -target "Video-Compressor" \
+            -project "Video Compressor.xcodeproj" \
+            -target "Video Compressor" \
             -configuration Debug \
             build

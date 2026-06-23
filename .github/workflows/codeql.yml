@@ -54,8 +54,8 @@ jobs:
       - name: Build project
         run: |
           xcodebuild build \
-            -project "Video-Compressor.xcodeproj" \
-            -target "Video-Compressor" \
+            -project "Video Compressor.xcodeproj" \
+            -target "Video Compressor" \
             -jobs $(sysctl -n hw.logicalcpu) \
             CODE_SIGNING_ALLOWED=NO \
             COMPILER_INDEX_STORE_ENABLE=NO
